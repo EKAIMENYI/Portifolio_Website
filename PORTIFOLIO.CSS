@@ -1,54 +1,49 @@
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
-    padding: 0;
-    }
-    header{
-      background-color: cadetblue;
-      color: #f0f8ff; 
-      padding: 20px; 
-    }
-    header{
+ body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-size: 25;
+      padding: 0;
     }
-    nav{
-      height: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: aquamarine;
-
+    
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
     }
-    nav ul{
+    
+    .introduction {
+      background-color: #f0f0f0;
+      padding: 30px;
+      margin: 20px 0;
+    }
+    
+    .skills {
+      background-color: #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .skills ul {
       list-style: none;
-      margin: 0;
       padding: 0;
-      display: flex;
     }
-    nav li{
-      margin: 0 30px;
+    
+    .skills li {
+      border: 1px solid #333;
+      padding: 10px;
+      margin-bottom: 10px;
     }
-    nav a{
-      text-decoration: none;
-      color: cadetblue;
+    
+    .contact {
+      background-color: #666;
+      padding: 30px;
+      color: #fff;
+      text-align: center;
     }
-    main{
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: ;
 
-    }
-    section{
-      margin-bottom: 20;
-    }
-    section h2{
-margin:0 0 20pxs 0;
-padding: auto;
-font-size: 20pxs;
-    }
-    footer{
-      background-color:aqua;
-      padding: 0;
-      align-content: center;
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+      .introduction, .skills, .contact {
+        padding: 10px;
+      }
     }
